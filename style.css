@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-image:url("imges/ppp.jpg") 
+}
+nav{
+    background-color: blueviolet;
+    height: 80px;
+    width: 100%;
+}
+nav ul li{
+    display:inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(214, 9, 88);
+    padding: 7px 13px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 3px;
+    
+}
+nav a:hover{
+    color:rgb(114, 114, 180);
+    border-radius: 3px;
+
+}
+table{
+    margin-right: 50%;
+    border-top-right-radius: 10%;
+    border-radius: 1px;
+    width: 50%;
+
+
+}
+th,td{
+    border: 3px solid black;
+    text-align: left;
+    padding: 8px;
+    background-color: white;
+}
+div .say{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 150%;
+    margin-top: 0%;
+    font-weight: bold;
+}
+video{
+    margin: 12%;
+    padding-left: 5%;
+}
+#unique{
+    font-size: 150%;
+    margin-top: 5%;
+    text-align: left;
+    font-weight: bold;
+}
+img{
+    height: 30%;
+    width: 30%;
+}
+div img{
+    align-content: flex-start;
+}
