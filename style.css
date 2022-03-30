@@ -70,3 +70,7 @@ img{
 div img{
     align-content: flex-start;
 }
+div img{
+    display: flex;
+    flex-direction: column;
+}
